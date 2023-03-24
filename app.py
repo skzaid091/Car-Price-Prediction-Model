@@ -67,7 +67,7 @@ with col2:
 
 empty_space()
 
-pipe = pickle.load(open('files/Model.pkl', 'rb'))
+pipe = pickle.load(open('Model.pkl', 'rb'))
 
 btn = st.button(label='Predict Price')
 
